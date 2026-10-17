@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+// Usage: go run . [name]
 func main() {
 	name := "World"
 	if len(os.Args) > 1 {
